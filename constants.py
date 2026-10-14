@@ -1,0 +1,39 @@
+"""Константы для работы игры"""
+# Размеры игрового поля и сетки
+SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
+GRID_SIZE = 20
+GRID_WIDTH = SCREEN_WIDTH // GRID_SIZE
+GRID_HEIGHT = SCREEN_HEIGHT // GRID_SIZE
+
+# Направления движения:
+UP = (0, -1)
+DOWN = (0, 1)
+LEFT = (-1, 0)
+RIGHT = (1, 0)
+
+# Цвет фона - черный:
+BOARD_BACKGROUND_COLOR = (0, 0, 0)
+
+# Цвет границы ячейки - светлый какой то:
+BORDER_COLOR = (93, 216, 228)
+
+# Цвет яблока:
+# Красный цвет.
+APPLE_COLOR = (255, 0, 0)
+# Синий цвет.
+BAD_APPLE_COLOR = (0, 0, 255)
+
+# Цвет змейки:
+SNAKE_COLOR = (0, 255, 0)
+
+# Скорости движения змейки:
+MAX_SPEED = 20
+MIN_SPEED = 5
+DELTA_SPEED = 5
+
+# Центр координат игрового поля:
+CENTER_OF_COORDINATE = [((GRID_WIDTH // 2) * GRID_SIZE), ((GRID_HEIGHT // 2)
+                                                          * GRID_SIZE)]
+# Длина змеи минимальная и максимальная:
+MIN_LENGTH = 1
+MAX_LENGTH = 40
