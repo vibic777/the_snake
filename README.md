@@ -16,3 +16,7 @@ python the_snake.py
 ```
 
 **GitHub About:** A 2024 learning project: classic Snake in Python and Pygame, kept as a quick return to practice.
+
+**Лицензия:** [PolyForm Noncommercial 1.0.0](LICENSE). Некоммерческое использование разрешено. Коммерческое использование — только по отдельному соглашению с vibic777.
+**License:** [PolyForm Noncommercial 1.0.0](LICENSE). Noncommercial use is allowed. Commercial use requires a separate agreement with vibic777.
+
